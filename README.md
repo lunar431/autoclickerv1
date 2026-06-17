@@ -1,21 +1,27 @@
-# Project Name
+# Autoclicker
 
-A short description of what the project does.
+A lightweight Windows autoclicker built for automation and testing purposes. It uses low-level Windows input APIs to simulate mouse clicks at high speed.
 
 ---
 
 ## Features
 
-- Feature 1
-- Feature 2
-- Feature 3
-- Fast and lightweight
-- Easy to use
+- Fast clicking using Windows API (SendInput)
+- Adjustable click delay
+- Start/stop hotkey support
+- Lightweight and minimal CPU usage
+- Runs in background
+
+---
+
+## Requirements
+
+- Windows 10 / Windows 11
+- C++ compiler (MSVC or MinGW)
+- Visual Studio (recommended) or any C++ IDE
 
 ---
 
 ## Installation
 
-### Clone the repository
-```bash
-git clone https://github.com/yourusername/yourrepo.git
+
